@@ -1,0 +1,8 @@
+{
+  "theme": {
+    "res": "res.ejs",
+    "index": "index.ejs",
+    "block": "block.ejs",
+    "post": "post.ejs"
+  }
+}

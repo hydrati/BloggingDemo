@@ -1,0 +1,16 @@
+<div class="jumbotron" style="margin-top: 20px;">
+  <h1>
+    <%= $bl.title %>
+  </h1>
+  <p>
+    <%= (function(){if($bl.desc.length < 200) { return $bl.desc } else { return
+    $bl.desc.substr(0,200)+" ..." }})() %>
+  </p>
+  <br />
+  <p class="post_block">
+    <%= $bl.date %>
+  </p>
+  <a href="<%= $bl.url %>"
+    ><i class="material-icons" style="color: black;">arrow_forward</i></a
+  >
+</div>
